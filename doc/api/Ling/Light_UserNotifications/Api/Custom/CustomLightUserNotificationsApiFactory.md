@@ -25,16 +25,16 @@ Class synopsis
 class <span class="pl-k">CustomLightUserNotificationsApiFactory</span> extends [LightUserNotificationsApiFactory](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory.md)  {
 
 - Inherited properties
-    - protected Ling\SimplePdoWrapper\SimplePdoWrapperInterface [LightUserNotificationsApiFactory::$pdoWrapper](#property-pdoWrapper) ;
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightUserNotificationsApiFactory::$container](#property-container) ;
+    - protected [Ling\SimplePdoWrapper\SimplePdoWrapperInterface](https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md) [LightUserNotificationsApiFactory::$pdoWrapper](#property-pdoWrapper) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightUserNotificationsApiFactory::$container](#property-container) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Custom/CustomLightUserNotificationsApiFactory/__construct.md)() : void
 
 - Inherited methods
     - public [LightUserNotificationsApiFactory::getUserNotificationApi](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/getUserNotificationApi.md)() : [CustomUserNotificationApiInterface](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Custom/Interfaces/CustomUserNotificationApiInterface.md)
-    - public [LightUserNotificationsApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setPdoWrapper.md)(Ling\SimplePdoWrapper\SimplePdoWrapperInterface $pdoWrapper) : void
-    - public [LightUserNotificationsApiFactory::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public [LightUserNotificationsApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setPdoWrapper.md)([Ling\SimplePdoWrapper\SimplePdoWrapperInterface](https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md) $pdoWrapper) : void
+    - public [LightUserNotificationsApiFactory::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
 }
 

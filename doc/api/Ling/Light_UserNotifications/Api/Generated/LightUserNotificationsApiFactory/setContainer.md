@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightUserNotificationsApiFactory::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+public [LightUserNotificationsApiFactory::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
 
 

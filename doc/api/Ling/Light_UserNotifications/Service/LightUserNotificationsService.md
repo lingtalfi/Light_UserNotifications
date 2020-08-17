@@ -22,14 +22,14 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightUserNotificationsService</span> extends LightLingStandardService01 implements PluginInstallerInterface {
+class <span class="pl-k">LightUserNotificationsService</span> extends [LightLingStandardService01](https://github.com/lingtalfi/Light_LingStandardService/blob/master/doc/api/Ling/Light_LingStandardService/Service/LightLingStandardService01.md) implements [PluginInstallerInterface](https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md) {
 
 - Properties
     - protected int [$options](#property-options) ;
     - protected [Ling\Light_UserNotifications\Api\Custom\CustomLightUserNotificationsApiFactory](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Custom/CustomLightUserNotificationsApiFactory.md) [$factory](#property-factory) ;
 
 - Inherited properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightLingStandardService01::$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightLingStandardService01::$container](#property-container) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Service/LightUserNotificationsService/__construct.md)() : void
@@ -37,7 +37,7 @@ class <span class="pl-k">LightUserNotificationsService</span> extends LightLingS
     - public [executeCleaningRoutine](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Service/LightUserNotificationsService/executeCleaningRoutine.md)() : void
 
 - Inherited methods
-    - public LightLingStandardService01::setContainer(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public LightLingStandardService01::setContainer([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
     - public LightLingStandardService01::setOptions(array $options) : void
     - public LightLingStandardService01::install() : void
     - public LightLingStandardService01::isInstalled() : bool

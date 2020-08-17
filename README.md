@@ -74,6 +74,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.0.1 -- 2020-08-17
+
+    - update documentation (forgot to use docTools)
+    
 - 1.0.0 -- 2020-08-17
 
     - initial commit
