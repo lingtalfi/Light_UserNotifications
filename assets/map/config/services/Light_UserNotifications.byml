@@ -10,6 +10,9 @@ user_notifications:
         
     
 
+# --------------------------------------
+# hooks
+# --------------------------------------
 $plugin_installer.methods_collection: 
     - 
         method: registerPlugin

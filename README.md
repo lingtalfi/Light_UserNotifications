@@ -57,6 +57,9 @@ user_notifications:
         
     
 
+# --------------------------------------
+# hooks
+# --------------------------------------
 $plugin_installer.methods_collection: 
     - 
         method: registerPlugin
@@ -66,7 +69,6 @@ $plugin_installer.methods_collection:
         
     
 
-
 ```
 
 
@@ -74,6 +76,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.0.2 -- 2020-08-17
+
+    - update service config (forgot hooks section comment)
+    
 - 1.0.1 -- 2020-08-17
 
     - update documentation (forgot to use docTools)
