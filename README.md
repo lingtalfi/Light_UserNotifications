@@ -76,6 +76,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.0.3 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.0.2 -- 2020-08-17
 
     - update service config (forgot hooks section comment)
