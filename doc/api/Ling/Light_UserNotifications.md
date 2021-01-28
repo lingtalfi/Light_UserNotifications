@@ -1,6 +1,6 @@
 Ling/Light_UserNotifications
 ================
-2020-08-13 --> 2020-12-08
+2020-08-13 --> 2021-01-28
 
 
 
@@ -105,6 +105,14 @@ Table of contents
     - [LightUserNotificationsApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setPdoWrapper.md) &ndash; Sets the pdoWrapper.
     - [LightUserNotificationsApiFactory::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/LightUserNotificationsApiFactory/setContainer.md) &ndash; Sets the container.
 - [LightUserNotificationsException](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Exception/LightUserNotificationsException.md) &ndash; The LightUserNotificationsException class.
+- [LightUserNotificationsPluginInstaller](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Light_PluginInstaller/LightUserNotificationsPluginInstaller.md) &ndash; The LightUserNotificationsPluginInstaller class.
+    - [LightUserNotificationsPluginInstaller::getDependencies](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Light_PluginInstaller/LightUserNotificationsPluginInstaller/getDependencies.md) &ndash; Returns the array of dependencies.
+    - [LightUserNotificationsPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Light_PluginInstaller/LightUserNotificationsPluginInstaller/getTableScope.md) &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
+    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
 - [LightUserNotificationsService](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Service/LightUserNotificationsService.md) &ndash; The LightUserNotificationsService class.
     - [LightUserNotificationsService::__construct](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Service/LightUserNotificationsService/__construct.md) &ndash; Builds the LightUserNotificationsService instance.
     - [LightUserNotificationsService::getFactory](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Service/LightUserNotificationsService/getFactory.md) &ndash; Returns the factory for this plugin's api.
@@ -123,6 +131,7 @@ Dependencies
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
+- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 
 

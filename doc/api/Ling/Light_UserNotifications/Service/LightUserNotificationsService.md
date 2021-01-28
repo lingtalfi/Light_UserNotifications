@@ -4,7 +4,7 @@
 
 The LightUserNotificationsService class
 ================
-2020-08-13 --> 2020-12-08
+2020-08-13 --> 2021-01-28
 
 
 
@@ -106,4 +106,4 @@ See the source code of [Ling\Light_UserNotifications\Service\LightUserNotificati
 
 SeeAlso
 ==============
-Previous class: [LightUserNotificationsException](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Exception/LightUserNotificationsException.md)<br>
+Previous class: [LightUserNotificationsPluginInstaller](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Light_PluginInstaller/LightUserNotificationsPluginInstaller.md)<br>

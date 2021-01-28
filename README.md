@@ -1,6 +1,6 @@
 Light_UserNotifications
 ===========
-2020-08-17
+2020-08-17 -> 2021-01-28
 
 
 
@@ -56,17 +56,6 @@ user_notifications:
                 messageArchiveTime: 30          # default is 30
         
     
-
-# --------------------------------------
-# hooks
-# --------------------------------------
-$plugin_installer.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            plugin: Light_UserNotifications
-            installer: @service(user_notifications)
-        
     
 
 ```
@@ -76,6 +65,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.0.5 -- 2021-01-28
+
+    - adapt api to work with new Light_PluginInstaller
+  
 - 1.0.4 -- 2020-12-08
 
     - Fix lpi-deps not using natsort.

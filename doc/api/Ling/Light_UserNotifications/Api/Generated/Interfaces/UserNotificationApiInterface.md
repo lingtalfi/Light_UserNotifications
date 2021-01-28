@@ -4,7 +4,7 @@
 
 The UserNotificationApiInterface class
 ================
-2020-08-13 --> 2020-12-08
+2020-08-13 --> 2021-01-28
 
 
 
