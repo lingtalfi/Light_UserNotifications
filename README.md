@@ -1,6 +1,6 @@
 Light_UserNotifications
 ===========
-2020-08-17 -> 2021-01-28
+2020-08-17 -> 2021-02-11
 
 
 
@@ -65,6 +65,10 @@ user_notifications:
 History Log
 =============
 
+- 1.0.6 -- 2021-02-11
+
+  - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
+  
 - 1.0.5 -- 2021-01-28
 
     - adapt api to work with new Light_PluginInstaller

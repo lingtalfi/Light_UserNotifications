@@ -4,7 +4,7 @@
 
 The CustomUserNotificationApi class
 ================
-2020-08-13 --> 2021-01-28
+2020-08-13 --> 2021-02-11
 
 
 
@@ -50,7 +50,6 @@ class <span class="pl-k">CustomUserNotificationApi</span> extends [UserNotificat
     - public [UserNotificationApi::deleteUserNotificationById](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationById.md)(int $id) : void
     - public [UserNotificationApi::deleteUserNotificationByIds](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationByIds.md)(array $ids) : void
     - public [UserNotificationApi::deleteUserNotificationByLudUserId](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationByLudUserId.md)(int $userId) : void
-    - private [UserNotificationApi::fetchRoutine](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/fetchRoutine.md)(string &$q, array &$markers, array $components) : array
     - public [LightUserNotificationsBaseApi::setPdoWrapper](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/LightUserNotificationsBaseApi/setPdoWrapper.md)([Ling\SimplePdoWrapper\SimplePdoWrapperInterface](https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md) $pdoWrapper) : void
     - public [LightUserNotificationsBaseApi::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/LightUserNotificationsBaseApi/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
@@ -82,7 +81,6 @@ Methods
 - [UserNotificationApi::deleteUserNotificationById](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationById.md) &ndash; Deletes the user notification identified by the given id.
 - [UserNotificationApi::deleteUserNotificationByIds](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationByIds.md) &ndash; Deletes the user notification rows identified by the given ids.
 - [UserNotificationApi::deleteUserNotificationByLudUserId](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/deleteUserNotificationByLudUserId.md) &ndash; Deletes the user notification rows having the given user id.
-- [UserNotificationApi::fetchRoutine](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/UserNotificationApi/fetchRoutine.md) &ndash; Appends the given components to the given query, and returns an array of options.
 - [LightUserNotificationsBaseApi::setPdoWrapper](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/LightUserNotificationsBaseApi/setPdoWrapper.md) &ndash; Sets the pdoWrapper.
 - [LightUserNotificationsBaseApi::setContainer](https://github.com/lingtalfi/Light_UserNotifications/blob/master/doc/api/Ling/Light_UserNotifications/Api/Generated/Classes/LightUserNotificationsBaseApi/setContainer.md) &ndash; Sets the container.
 

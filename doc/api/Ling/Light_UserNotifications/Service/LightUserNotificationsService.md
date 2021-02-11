@@ -4,7 +4,7 @@
 
 The LightUserNotificationsService class
 ================
-2020-08-13 --> 2021-01-28
+2020-08-13 --> 2021-02-11
 
 
 
@@ -45,7 +45,6 @@ class <span class="pl-k">LightUserNotificationsService</span> extends [LightLing
     - public LightLingStandardService01::getDependencies() : array
     - public LightLingStandardService01::logDebug($msg) : void
     - protected LightLingStandardService01::error(string $msg) : void
-    - private LightLingStandardService01::prepareNames() : void
 
 }
 
@@ -91,7 +90,6 @@ Methods
 - LightLingStandardService01::getDependencies &ndash; Returns the array of dependencies.
 - LightLingStandardService01::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
 - LightLingStandardService01::error &ndash; Throws an exception.
-- LightLingStandardService01::prepareNames &ndash; Prepare names used by this class.
 
 
 
